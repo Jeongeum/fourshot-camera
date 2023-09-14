@@ -5,10 +5,11 @@
 }
 
 .wrapper {
-  width: 400px;
-  height: 900px;
+  position: relative;
+  width: 340px;
+  height: 100vh;
   margin: 0 auto;
-  background-color: #ffe5ea;
+
   border-radius: 10px;
   padding: 10px;
 
@@ -18,18 +19,30 @@
   }
 }
 
+.frame-bg {
+  position: absolute;
+  width: 340px;
+  height: 100vh;
+  /* background-image: url(./frame.png); */
+  background-image: url(./jiyoonframe.PNG);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 10;
+}
+
 .frame-container {
+  width: 340px;
+  height: 753px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
   height: 860px;
-  margin-top: 30px;
 }
 
 .frame {
   & > img {
-    border-radius: 10px;
+    width: 338px;
+    height: 188px;
   }
 
   /* margin: 10px;
@@ -37,3 +50,8 @@
 }
 
 /* 다른 스타일 정의 */
+
+.photobtn {
+  position: absolute;
+  right: -80px;
+}

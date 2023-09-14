@@ -6,17 +6,19 @@
 }
 
 .webcam {
-  width: 300px;
-  height: 180px;
+  width: 339px;
+  height: 190px;
   margin-bottom: 10px;
-  border-radius: 10px;
 
   & > video {
-    height: 180px;
-    border-radius: 10px;
+    object-fit: cover;
+    width: 339px;
+    height: 190px;
   }
 }
 
 Button {
   margin-top: 10px;
+  position: absolute;
+  right: -80px;
 }
