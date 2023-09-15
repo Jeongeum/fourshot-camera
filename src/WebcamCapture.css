@@ -18,6 +18,12 @@
 }
 
 Button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ffb13d;
+  color: white;
+  font-weight: 600;
   margin-top: 10px;
   position: absolute;
   bottom: 0;
