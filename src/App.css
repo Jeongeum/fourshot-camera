@@ -7,7 +7,7 @@
 .wrapper {
   position: relative;
   width: 340px;
-  height: 100vh;
+  height: 795px;
   margin: 0 auto;
 
   border-radius: 10px;
@@ -16,6 +16,11 @@
   & > h1 {
     font-size: 24px;
     margin: 0;
+  }
+
+  & > p {
+    position: absolute;
+    bottom: 0;
   }
 }
 
@@ -52,6 +57,9 @@
 /* 다른 스타일 정의 */
 
 .photobtn {
+  margin-top: 10px;
   position: absolute;
-  right: -80px;
+  bottom: 0;
+  right: 145px;
+  z-index: 500;
 }
