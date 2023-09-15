@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cf989ed3.css",
+    "main.js": "/static/js/main.98ea8078.js",
+    "static/js/787.bd9fc81c.chunk.js": "/static/js/787.bd9fc81c.chunk.js",
+    "static/media/jiyoonframe.PNG": "/static/media/jiyoonframe.216049143d55402c0121.PNG",
+    "index.html": "/index.html",
+    "main.cf989ed3.css.map": "/static/css/main.cf989ed3.css.map",
+    "main.98ea8078.js.map": "/static/js/main.98ea8078.js.map",
+    "787.bd9fc81c.chunk.js.map": "/static/js/787.bd9fc81c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf989ed3.css",
+    "static/js/main.98ea8078.js"
+  ]
+}
