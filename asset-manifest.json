@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fourshot-camera/static/css/main.b9767e6a.css",
-    "main.js": "/fourshot-camera/static/js/main.23c38906.js",
+    "main.css": "/fourshot-camera/static/css/main.91aa64b4.css",
+    "main.js": "/fourshot-camera/static/js/main.f09ca0c3.js",
     "static/js/787.bd9fc81c.chunk.js": "/fourshot-camera/static/js/787.bd9fc81c.chunk.js",
-    "static/media/jiyoonframe.PNG": "/fourshot-camera/static/media/jiyoonframe.216049143d55402c0121.PNG",
+    "static/media/jiyoonframe.png": "/fourshot-camera/static/media/jiyoonframe.216049143d55402c0121.png",
     "index.html": "/fourshot-camera/index.html",
-    "main.b9767e6a.css.map": "/fourshot-camera/static/css/main.b9767e6a.css.map",
-    "main.23c38906.js.map": "/fourshot-camera/static/js/main.23c38906.js.map",
+    "main.91aa64b4.css.map": "/fourshot-camera/static/css/main.91aa64b4.css.map",
+    "main.f09ca0c3.js.map": "/fourshot-camera/static/js/main.f09ca0c3.js.map",
     "787.bd9fc81c.chunk.js.map": "/fourshot-camera/static/js/787.bd9fc81c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9767e6a.css",
-    "static/js/main.23c38906.js"
+    "static/css/main.91aa64b4.css",
+    "static/js/main.f09ca0c3.js"
   ]
 }
