@@ -4,6 +4,7 @@ import WebcamCapture from './WebcamCapture';
 import Button from 'react-bootstrap/Button';
 import './App.css';
 import html2canvas from 'html2canvas'; // html2canvas 라이브러리 추가
+import photofilter from './jiyoonframe.png';
 
 function App() {
   const [capturedPhotos, setCapturedPhotos] = useState<string[]>([]);
@@ -39,7 +40,7 @@ function App() {
           const imageDataUrl = canvas.toDataURL('image/png');
           const link = document.createElement('a');
           link.href = imageDataUrl;
-          link.download = 'captured_photos.png';
+          link.download = 'happy birthday!❤.png';
           link.click();
 
           // 이미지 저장 후 capturedPhotos 배열 초기화
@@ -55,7 +56,7 @@ function App() {
   return (
     <div className="App">
       <div className="wrapper">
-        <div className="frame-bg"></div>
+        <img className="frame-bg" src={photofilter} alt="프레임" />
         <div className="frame-container">
           {capturedPhotos.map((photo, index) => (
             <div key={index} className="frame">

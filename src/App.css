@@ -1,17 +1,23 @@
 /* App.css */
 .App {
+  max-width: 400px;
+  margin: 0 auto;
   text-align: center;
   font-family: Arial, sans-serif;
 }
 
 .wrapper {
+  width: 100%;
+  min-width: 340px; /* 최소 너비 */
+  height: 100vh; /* 화면 높이에 맞추기 */
+  min-height: 620px;
   position: relative;
-  width: 340px;
-  height: 795px;
+  /* width: 340px;
+  height: 795px; */
   margin: 0 auto;
 
   border-radius: 10px;
-  padding: 10px;
+  /* padding: 10px; */
 
   & > h1 {
     font-size: 24px;
@@ -25,29 +31,37 @@
 }
 
 .frame-bg {
+  display: block;
   position: absolute;
-  width: 340px;
-  height: 100vh;
+  /* width: 340px;
+  height: 100vh; */
+  width: 100%;
+  height: 95%;
   /* background-image: url(./frame.png); */
-  background-image: url(./jiyoonframe.PNG);
+  /* background-image: url(./jiyoonframe.PNG);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain; */
   z-index: 10;
 }
 
 .frame-container {
-  width: 340px;
-  height: 753px;
+  width: 100%;
+  height: 23.5%;
+  max-width: 800px; /* 최대 너비 설정 (선택 사항) */
+  margin: 0 auto;
+  /* width: 340px;
+  height: 753px; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 860px;
 }
 
 .frame {
+  width: 100%;
+  height: 100%;
   & > img {
-    width: 338px;
-    height: 188px;
+    width: 100%;
+    height: 100%;
   }
 
   /* margin: 10px;
@@ -66,6 +80,6 @@
   margin-top: 10px;
   position: absolute;
   bottom: 0;
-  right: 145px;
+  right: 40%;
   z-index: 500;
 }
