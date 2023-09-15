@@ -35,9 +35,9 @@ function App() {
       const photobtn = document.querySelector('.photobtn') as HTMLElement;
       if (frameContainer) {
         photobtn.style.display = 'none';
-        html2canvas(frameContainer).then((canvas) => {
+        html2canvas(frameContainer, { scale: 4 }).then((canvas) => {
           // canvas를 이미지로 변환하여 다운로드
-          const imageDataUrl = canvas.toDataURL('image/png');
+          const imageDataUrl = canvas.toDataURL('image/png', 1);
           const link = document.createElement('a');
           link.href = imageDataUrl;
           link.download = 'happy birthday!❤.png';
