@@ -31,7 +31,7 @@ function App() {
 
   const handleSaveImage = () => {
     if (capturedPhotos.length > 0) {
-      const frameContainer = document.querySelector('.wrapper') as HTMLElement;
+      const frameContainer = document.querySelector('#root') as HTMLElement;
       const photobtn = document.querySelector('.photobtn') as HTMLElement;
       if (frameContainer) {
         photobtn.style.display = 'none';
